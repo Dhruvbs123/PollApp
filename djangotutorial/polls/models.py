@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import datetime
 from django.db import models
 from django.utils import timezone
@@ -21,3 +22,8 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+=======
+from django.db import models
+
+# Create your models here.
+>>>>>>> fe19602c4ba5c5045a2401ad2d608fefe791ce74
